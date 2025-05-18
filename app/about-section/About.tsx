@@ -41,11 +41,6 @@ const About = () => {
             />
             <AnimatedBody
               text={
-                "When I'm not coding, you can find me playing BGMI, hanging out with friends or cheering on RCB."
-              }
-            />
-            <AnimatedBody
-              text={
                 "I'm currently working on some exciting projects that I can't wait to share with you. But I’m always open to new opportunities and collaborations."
               }
             />
