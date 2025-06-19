@@ -16,7 +16,7 @@ export const devProjects = [
     description:
       "A unique AI powered web app focusing on managing expenses amongst friends and family without any fuss.",
     technologies: ["NextJS", "Tailwind CSS", "ShadcnUI" , "Convex"],
-    github: "",
+    github: "https://github.com/Shriyansh-Ag/Splitr",
     demo: "",
     image: require(".//../../public/projects/1st.jpg"),
     available: true,
@@ -27,7 +27,7 @@ export const devProjects = [
     description:
       "An comprehensive Full Stack web app simulating cab services with features like separate captain dashboard and microservices",
     technologies: ["React", "ExpressJs", "NodeJS" , "MongoDB"],
-    github: "",
+    github: "https://github.com/Shriyansh-Ag/Pick-Me",
     demo: "",
     image: require(".//../../public/projects/2nd.jpg"),
     available: true,
