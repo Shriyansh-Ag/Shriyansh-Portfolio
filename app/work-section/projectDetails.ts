@@ -16,8 +16,8 @@ export const devProjects = [
     description:
       "A unique AI powered web app focusing on managing expenses amongst friends and family without any fuss.",
     technologies: ["NextJS", "Tailwind CSS", "ShadcnUI" , "Convex"],
-    github: "https://github.com/Shriyansh-Ag/Splitr",
-    demo: "",
+    github: "https://github.com/Shriyansh-Ag/Splitrr",
+    demo: "https://splitrr-murex.vercel.app/",
     image: require(".//../../public/projects/1st.jpg"),
     available: true,
   },
