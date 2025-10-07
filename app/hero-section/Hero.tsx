@@ -24,7 +24,7 @@ const Hero = () => {
             aria-label="CONNECT WITH ME"
           >
             <motion.button
-              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
+              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[12px] font-semibold text-[#e4ded7] sm:block  md:text-[14px] lg:block"
               variants={bodyAnimation}
             >
               CONNECT WITH ME
@@ -39,7 +39,7 @@ const Hero = () => {
             aria-label="View GitHub Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[14px] font-bold text-[#e4ded7] md:text-[14px]"
               variants={bodyAnimation}
             >
               GH
@@ -51,7 +51,7 @@ const Hero = () => {
             aria-label="View LinkedIn Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[14px] font-bold text-[#e4ded7] md:text-[14px]"
               variants={bodyAnimation}
             >
               LN
@@ -63,7 +63,7 @@ const Hero = () => {
             aria-label="View Leetcode Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[14px] font-bold text-[#e4ded7] md:text-[14px]"
               variants={bodyAnimation}
             >
               LC
@@ -105,8 +105,8 @@ const Hero = () => {
           className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
           variants={bodyAnimation}
         >
-          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Data Scientist,
+          <p className="z-50 text-center text-[14px] font-medium text-[#e4ded7] md:text-[16px] lg:text-left">
+            ML Engineer and Full Stack Engineer,
             currently available for work.
           </p>
         </motion.div>
@@ -115,9 +115,8 @@ const Hero = () => {
           className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
           variants={bodyAnimation}
         >
-          <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Delhi,
-            India.
+          <p className="text-right text-[14px] font-semibold text-[#e4ded7] md:text-[16px]">
+            Focused on Deep Learning and GenAi. 
           </p>
         </motion.div>
       </div>

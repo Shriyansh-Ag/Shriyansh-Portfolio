@@ -11,7 +11,7 @@ export type ProjectProps = {
 
 export const devProjects = [
   {
-    id: 1,
+    id: 0,
     name: "Splitr",
     description:
       "A unique AI powered web app focusing on managing expenses amongst friends and family without any fuss.",
@@ -22,14 +22,25 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 0,
-    name: "Pick-Me-Please",
+    id: 1,
+    name: "Concisio",
     description:
-      "An comprehensive Full Stack web app simulating cab services with features like separate captain dashboard and microservices",
-    technologies: ["React", "ExpressJs", "NodeJS" , "MongoDB"],
-    github: "https://github.com/Shriyansh-Ag/Pick-Me",
+      "Fine-tuned transformer models for abstractive and extractive text summarization.Implemented CI/CD workflows via GitHub Actions; containerized pipeline with Docker.",
+    technologies: ["Hugging Face", "Transformers", "MLflow", "Docker"],
+    github: "",
     demo: "",
-    image: require(".//../../public/projects/2nd.jpg"),
+    image: "",
+    available: true,
+  },
+  {
+    id: 0,
+    name: "ETLGuard",
+    description:
+      "Built automated MLOps pipeline for network security system (validation, drift management).Designed scalable solutions on AWS with CI/CD, improving reliability and deployment speed.",
+    technologies: ["NumPy", "Scikit-learn", "AWS", "MongoDB"],
+    github: "",
+    demo: "",
+    image: "",
     available: true,
   },
 ];
